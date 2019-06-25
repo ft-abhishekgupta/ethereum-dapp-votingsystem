@@ -1,6 +1,0 @@
-Web3 = require('web3');
-web3 = new Web3("http://localhost:8545");
-bytecode = fs.readFileSync('Election_sol_Election.bin').toString();
-abi = JSON.parse(fs.readFileSync('Election_sol_Election.abi').toString());
-deployedContract = new web3.eth.Contract(abi);
-deployedContract.deploy({data: bytecode,arguments:[web3.utils.asciiToHex("SenateElections")]}).send({from:'0x3f6f7C9407C0C43B05F6c74161e1F6A4147d591E',gas:3000000,gasPrice:web3.utils.toWei('0.00003','ether')}).then((newContractInstance)=>{deployedContract.options.address=newContractInstance.options.address;console.log(newContractInstance.options.address)});
