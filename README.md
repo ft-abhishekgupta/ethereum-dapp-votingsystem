@@ -33,7 +33,7 @@ Use Linux System
 git clone https://github.com/ft-abhishekgupta/ethereum-dapp-votingsystem
 ```
 
-* Extract Ganache GUI
+* Download Ganache GUI (AppImage File)
 
 ### Install Dependencies
 ```
