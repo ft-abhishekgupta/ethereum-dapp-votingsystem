@@ -1,0 +1,28 @@
+{
+  "name": "bc-project",
+  "version": "1.0.0",
+  "description": "| ***Serial*** | ***Roll Number*** | ***Name*** | ***Email ID*** | |---|---|---|---| | 1 | 18111001 | Abhishek Gupta | ftabhi@iitk.ac.in | | 2 | 18111050 | Pranjal Jain | pranjalj@iitk.ac.in | | 3 | 18111058 | Sanjay Kumar | sanjayku@iitk.ac.in | | 4 | 18111059 | Sanket Bodele | sbodele@iitk.ac.in | | 5 | 18111067 | Shubham Pandey | pyshubh@iitk.ac.in |",
+  "main": "index.js",
+  "dependencies": {
+    "bignumber.js": "^8.1.1",
+    "coder": "^0.0.0",
+    "crypto-js": "^3.1.9-1",
+    "ganache-cli": "^6.4.2",
+    "solc": "^0.5.3",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ft-abhishekgupta/BC-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ft-abhishekgupta/BC-Project/issues"
+  },
+  "homepage": "https://github.com/ft-abhishekgupta/BC-Project#readme"
+}
